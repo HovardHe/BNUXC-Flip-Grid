@@ -5,7 +5,7 @@ import { Plus, Trash2, Play, Upload, Download, Copy, Check, X, FileJson, FileUp 
 
 interface AdminPanelProps {
   levels: Level[];
-  setLevels: (levels: Level[]) => void;
+  setLevels: React.Dispatch<React.SetStateAction<Level[]>>;
   onStartCompetition: () => void;
 }
 
